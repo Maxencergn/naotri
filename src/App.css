@@ -1,0 +1,15 @@
+.mapContainer {
+  height: 600px;
+  width: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}

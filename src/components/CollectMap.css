@@ -1,0 +1,179 @@
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.leaflet-container {
+  height: calc(100vh - 75px);
+  width: 100%;
+}
+
+.frog {
+  width: 120px;
+  height: 120px;
+}
+
+.pParagraphe {
+  font-size: 12px;
+}
+
+.button-position {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button-Filter {
+  z-index: 1000000;
+  position: absolute;
+  height: 40px;
+  width: 120px;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  background-color: rgb(70, 220, 123);
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  transition: 0.4s ease-in-out;
+  box-shadow: 2px 2px 2px 1px rgba(148, 160, 153, 0.7);
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  z-index: 1000000;
+  position: absolute;
+}
+
+.button-Filter-list {
+  height: 450px;
+  width: 280px;
+  transition: 0.4s ease-in-out;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: #46dc7b;
+  font-weight: 900;
+  letter-spacing: 1px;
+  z-index: 1000000;
+  position: absolute;
+  box-shadow: 2px 2px 2px 1px rgba(148, 160, 153, 0.7);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.filterLogo {
+  width: 15px;
+  height: 15px;
+}
+
+.closeLogo {
+  width: 18px;
+  height: 18px;
+}
+
+.button-close-logo {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 25px;
+  margin-top: 10px;
+  padding: 0 5px;
+  transition: 0.4s ease-in-out;
+}
+
+.checkbox {
+  margin-top: 10px;
+  padding-left: 20px;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.verre-checkbox {
+  height: 19px;
+  width: 19px;
+}
+
+.select-checkbox {
+  margin-top: 27px;
+  padding-left: 20px;
+  color: rgb(119, 119, 119);
+}
+
+.pinsVerre,
+.pinsCarton,
+.pinsCompost,
+.pinsDechette,
+.pinsOrdure,
+.pinsTrisac {
+  width: 40px;
+  height: 40px;
+}
+
+.formpostal {
+  display: block;
+  text-align: center;
+  margin: auto 20px;
+  justify-content: center;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.input-postal-code {
+  background-color: #eee;
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  outline: none;
+  margin: auto;
+  color: black;
+}
+
+.btn-form {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #46dc7b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.p-geoloc {
+  font-weight: 500;
+  font-size: 20px;
+}
